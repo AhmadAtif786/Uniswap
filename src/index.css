@@ -1,13 +1,2333 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-repeat: no-repeat, no-repeat, repeat-x, no-repeat, no-repeat,
+    no-repeat;
+  background-attachment: fixed;
+  background-position: center top, center bottom -64px, center bottom -84px,
+    center top, center top 48px, center top;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(https://assets.spookyswap.finance/background/cloud_cat.png),
+    url(https://assets.spookyswap.finance/background/clouds.png),
+    url(https://assets.spookyswap.finance/background/moon_cat_.png),
+    url(https://assets.spookyswap.finance/background/stars_.png),
+    radial-gradient(
+      circle at center bottom,
+      rgb(50, 94, 128) 10%,
+      rgb(16, 30, 62) 90%
+    );
+}
+@font-face {
+  font-family: RedHatDisplay;
+  src: url(/public/Space\ Grotesk\ Regular\ 400.ttf);
+}
+body img {
+  height: auto;
+  max-width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.kglWtV {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+.dJogxx {
+  left: 0px;
+  top: 0px;
+  transition: top 0.15s ease 0s;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 20;
+  height: 48px;
+}
+.egeLzW {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bvMJFo {
+  display: flex;
+  padding-left: 24px;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 48px;
+}
+.kCoske {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(49, 65, 94);
+}
+.navb {
+  height: 48px;
+}
+.eiDQZW {
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+.eJsIgJ {
+  display: flex;
+  height: 100%;
+}
+.loYKTl {
+  transition: all 0.15s ease 0s;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.09);
+  height: 100%;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.loYKTl a {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 9px;
+}
+.loYKTl svg {
+  fill: rgb(140, 140, 227);
+}
+.boALps {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+.fiKiNN {
+  color: rgb(140, 140, 227);
+  font-weight: bold;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+.lfKbd {
+  transition: all 0.15s ease 0s;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  height: 100%;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.lfKbd a {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 9px;
+}
+.lfKbd svg {
+  fill: rgb(115, 204, 231);
+}
+.dikysQ {
+  color: rgb(49, 65, 94);
+  font-weight: bold;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+.bfGAkp {
+  transition: all 0.15s ease 0s;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  height: 100%;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.bfGAkp a {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 9px;
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+.bfGAkp svg {
+  fill: rgb(255, 51, 75);
+}
+.crlswz {
+  position: relative;
+  height: 100%;
+}
+.KDNlR {
+  display: flex;
+  height: 100%;
+  color: rgb(49, 65, 94);
+  cursor: pointer;
+}
+.bBPtWa {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-left: 11px;
+  margin-right: 16px;
+}
+.kglWtV {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+.jREztg {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.cIjgB {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.15s ease 0s;
+  width: 100%;
+}
+.fHhMPE {
+  fill: none;
+  flex-shrink: 0;
+}
+.kwhvgy {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  margin-left: 9px;
+  line-height: 24px;
+}
+.cMUWLi {
+  display: flex;
+  height: 100%;
+  padding: 0px 12px;
+  color: rgb(49, 65, 94);
+  cursor: pointer;
+}
+.eiDQZW {
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+.navb {
+  height: 48px;
+}
+.BllHR {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid rgb(49, 65, 94);
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  user-select: none;
+  box-sizing: border-box;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: rgb(242, 244, 248);
+  color: rgb(49, 65, 94);
+  width: 184px;
+}
+.jvdQse {
+  margin-right: 16px;
+}
+.cEDWiB {
+  display: flex;
+  /* margin-top: 48px; */
+  color: rgb(77, 103, 147);
+  padding-left: 52px;
+}
+.erlgGU {
+  transition: all 0.15s ease 0s;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  height: 32px;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.erlgGU a {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 9px;
+}
+.kfUGNB {
+  color: rgb(77, 103, 147);
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+.iwqTqy {
+  margin-top: 0px;
+  max-width: 100%;
+  min-height: calc(100vh + 380px);
+  padding-bottom: 200px;
+}
+.laTVJP {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 300px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 1 1 0%;
+  overflow: hidden auto;
+  z-index: 1;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.bmBtIq {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+}
+.hKLhFR {
+  position: relative;
+  max-width: 532px;
+  width: 100%;
+  z-index: 5;
+  border-width: 0px;
+  padding: 0px 8px 8px;
+}
+.jdiWPe {
+  height: 28px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 40px;
+  position: relative;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.gvuXvo {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid rgb(140, 140, 227);
+  opacity: 0.3;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  height: 12px;
+  transition: background-color 200ms ease 0s;
+  width: 42px;
+}
+.dxcNBu {
+  cursor: pointer;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  width: 46px;
+  z-index: 3;
+}
+.cSlOVZ {
+  cursor: pointer;
+  left: 0px;
+  position: absolute;
+  transition: left 200ms ease-in 0s;
+  z-index: 2;
+}
+.cSlOVZ {
+  cursor: pointer;
+  left: 0px;
+  position: absolute;
+  transition: left 200ms ease-in 0s;
+  z-index: 2;
+}
+.eiDQZW {
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+.iCcNWx {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: transparent;
+  color: rgb(77, 103, 147);
+  font-weight: bold;
+  box-shadow: none;
+  margin-left: 4px;
+}
+.fWLTtg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: inherit;
+  z-index: 1;
+}
+.hKwWev {
+  position: relative;
+  max-width: 532px;
+  padding: 12px 12px 24px;
+  width: 100%;
+  z-index: 5;
+  overflow: visible;
+}
+.igOcFe {
+  background: rgb(228, 233, 241);
+  border-radius: 0px;
+  width: 100%;
+  height: 36px;
+  display: inline-flex;
+}
+.jTCZRr {
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  background-color: transparent;
+  color: rgb(242, 244, 248);
+  box-shadow: none;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+}
+.jTCZRr {
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  background-color: transparent;
+  color: rgb(242, 244, 248);
+  box-shadow: none;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+}
+.bCNyvG {
+  font-weight: unset;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0px;
+  color: rgb(49, 65, 94);
+  width: 50%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cdqsld {
+  border-top: unset;
+  border-right: unset;
+  border-left: unset;
+  border-image: unset;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0px;
+  width: 50%;
+  height: 100%;
+  border-bottom: 2px solid rgb(46, 179, 220);
+  color: rgb(46, 179, 220);
+}
+
+.eNKCFX {
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-color: rgb(140, 140, 227);
+  border-radius: 8px;
+  box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px,
+    rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: rgb(49, 65, 94);
+  overflow: hidden;
+  position: relative;
+}
+.iKqGfS {
+  position: relative;
+}
+.fndElv {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 8px;
+  width: unset;
+}
+.cAYWxW {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: rgb(49 65 94 / 8%) 0px 2px 4px inset,
+    rgb(49 65 94 / 4%) 0px 4px 8px inset;
+  background-color: rgb(228, 233, 241);
+  z-index: 1;
+}
+.iBcWdL {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(49, 65, 94);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.1rem 0.5rem;
+}
+.fmiRPO {
+  color: rgb(77, 103, 147);
+  font-family: "RedHatDisplay";
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bFXzfu {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.gyONjj {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+}
+.fogsAF {
+  -webkit-box-align: center;
+  align-items: center;
+  height: 30px;
+  font-size: 16px;
+  color: rgb(49, 65, 94);
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  background: rgb(242, 244, 248);
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  transition: all 0.15s ease 0s;
+}
+.hOYYZG {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.kllNxS {
+  width: 24px;
+  height: 24px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+  border-radius: 24px;
+}
+.iBScky {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hpxmWP {
+  color: rgb(49, 65, 94);
+  width: 0px;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  flex: 1 1 auto;
+  background-color: transparent;
+  font-size: 18px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px;
+  appearance: textfield;
+}
+.zMGpP {
+  border-top: 1px solid rgb(188, 200, 220);
+  border-right-color: rgb(188, 200, 220);
+  border-bottom-color: rgb(188, 200, 220);
+  border-left-color: rgb(188, 200, 220);
+  margin-top: 5px;
+}
+.iBcWdL {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(49, 65, 94);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.1rem 0.5rem;
+}
+.bfDXew {
+  color: rgb(77, 103, 147);
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.GkEIA {
+  display: grid;
+  grid-auto-rows: auto;
+  width: unset;
+}
+.fLEsav {
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.HWPCa {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.jfzODj {
+  fill: rgb(140, 140, 227);
+  flex-shrink: 0;
+}
+.fLEsav > * {
+}
+.cAYWxW {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: rgb(49 65 94 / 8%) 0px 2px 4px inset,
+    rgb(49 65 94 / 4%) 0px 4px 8px inset;
+  background-color: rgb(228, 233, 241);
+  z-index: 1;
+}
+.fogsAF {
+  -webkit-box-align: center;
+  align-items: center;
+  height: 30px;
+  font-size: 16px;
+  color: rgb(49, 65, 94);
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  background: rgb(242, 244, 248);
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  transition: all 0.15s ease 0s;
+}
+.gapchu {
+  width: 24px;
+  height: 24px;
+}
+.irzWzB {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.fbUNEw {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.eSBqst {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+.HOGsV {
+  padding: 0px;
+  width: 28px;
+}
+.jIhvLR {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  background-color: transparent;
+  color: rgb(140, 140, 227);
+  box-shadow: none;
+  padding: 0px;
+  font-weight: bold;
+  height: 14px;
+}
+.cjxNKv {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-left: 0.15rem;
+}
+.hontUl {
+  color: rgb(140, 140, 227);
+  font-family: "RedHatDisplay";
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 700;
+}
+.hLOQZw {
+  margin-top: 1rem;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.hGJmFk {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  padding: 8px;
+  background: rgba(102, 101, 221, 0.2);
+  border-radius: 8px;
+  margin: 0px;
+}
+.fTuSeA {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  background-color: transparent;
+  color: rgb(140, 140, 227);
+  box-shadow: none;
+  padding: 0px;
+  font-weight: bold;
+  height: 14px;
+  margin-left: 4px;
+}
+.kpeGno {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: transparent;
+  color: rgb(77, 103, 147);
+  font-weight: bold;
+  box-shadow: none;
+}
+.fbUNEw {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.eSBqst {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+
+/************************** Liquidity *******************************/
+.gEfhZZ {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.dxlLEx {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0.2rem;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: default;
+  color: rgb(140, 140, 227);
+  transition: all 0.2s ease 0s;
+}
+.zPuL {
+  display: inline-block;
+}
+.CGXRw {
+  position: absolute;
+  top: 50px;
+  right: 24px;
+}
+.gkbSQf {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+}
+.iLTiaQ {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 12px;
+  width: unset;
+}
+.coSCIs {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  padding: 8px;
+  background: rgba(102, 101, 221, 0.2);
+  border-radius: 8px;
+  margin: 34px 0px 12px;
+}
+/******************************************** STAKE *************************/
+.djlnA-D {
+  max-width: 1200px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.jNudlt {
+  min-height: calc(100vh - 64px);
+  max-width: 900px;
+  padding-bottom: 300px;
+}
+.cNvRJq {
+  margin-top: 48px;
+  max-width: 100%;
+  min-height: calc(100vh + 700px);
+  padding-bottom: 700px;
+}
+.hNwnuN {
+  padding: 58px 0px;
+}
+.kKIDCz {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.csGqxx {
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px 8px 24px;
+  margin-bottom: 24px;
+}
+
+.eNKCFX {
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-color: rgb(140, 140, 227);
+  border-radius: 8px;
+  box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px,
+    rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: rgb(49, 65, 94);
+  overflow: hidden;
+  position: relative;
+}
+.isZmGq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding: 16px 16px 4px;
+  background: unset;
+}
+
+.dgyXBd {
+  color: rgb(115, 204, 231);
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
+.isZmGq > * {
+  font-size: 18px;
+}
+.fLsqAy {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+}
+.lhQQfB {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 300px;
+  z-index: 5;
+  margin-bottom: 24px;
+}
+.coSCIs {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  padding: 8px;
+  background: rgba(102, 101, 221, 0.2);
+  border-radius: 8px;
+  margin: 34px 0px 12px;
+}
+.jfzODj {
+  fill: rgb(140, 140, 227);
+  flex-shrink: 0;
+}
+.hbBtUh {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 4px;
+  font-size: 14px;
+}
+.injjUJ {
+  padding: 0px;
+}
+.iemHNE {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 8px;
+  justify-items: center;
+  width: unset;
+}
+.jiqKRe {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 8px px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.eSBqst {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+}
+.fbUNEw {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.tcgHY {
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.CircularProgressbar {
+  width: 100%;
+  vertical-align: middle;
+}
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: rgb(62, 152, 199);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+.bOxTgW {
+  position: absolute;
+  inset: 8.33%;
+  z-index: 0;
+}
+.fHhMPE {
+  fill: none;
+  flex-shrink: 0;
+}
+.jQSaRE {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.blIfJS {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+.jVXKbk {
+  width: 280px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 1em 0px;
+}
+.kJwJYF {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.mMEBi {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+.bKyiYK {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.gnoNld {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.fHhMPE {
+  fill: none;
+  flex-shrink: 0;
+}
+
+.cvJbXl {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.isZmGq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding: 16px 16px 4px;
+  background: unset;
+}
+.fLsqAy {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+}
+.ldYokK {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "RedHatDisplay", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  background-color: transparent;
+  color: rgb(140, 140, 227);
+  box-shadow: none;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.gWZmOG {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 80px 0px;
+  vertical-align: top;
+}
+.eDSbxJ {
+  max-width: 328px;
+  width: 100%;
+  padding: 24px;
+}
+
+.gWZmOG > * {
+  margin: 20px;
+}
+.fndElv {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 8px;
+  width: unset;
+}
+.eiCzMb {
+  color: rgb(49, 65, 94);
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: left;
+}
+.jVXKbk {
+  width: 280px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 1em 0px;
+}
+.fCVYhH {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  padding: 8px;
+  background: rgba(102, 101, 221, 0.2);
+  border-radius: 8px;
+  margin: 0px 0px 12px;
+}
+.bKyiYK {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.kJwJYF {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.mMEBi {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+.bKyiYK {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.gnoNld {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.fmYIqW {
+  padding: 24px;
+}
+.injjUJ {
+  padding: 0px;
+}
+
+.eNKCFX {
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-color: rgb(140, 140, 227);
+  border-radius: 8px;
+  box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px,
+    rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: rgb(49, 65, 94);
+  overflow: hidden;
+  position: relative;
+}
+
+.cINCZL {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0px;
+  border-bottom: 0px solid rgb(189, 194, 196);
+  border-top: 0px solid rgb(189, 194, 196);
+  border-right-color: rgb(189, 194, 196);
+  border-left-color: rgb(189, 194, 196);
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.cINCZL {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0px;
+  border-bottom: 0px solid rgb(189, 194, 196);
+  border-top: 0px solid rgb(189, 194, 196);
+  border-right-color: rgb(189, 194, 196);
+  border-left-color: rgb(189, 194, 196);
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.dUAiby {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.hjbmwH {
+  height: 28px;
+  background: rgb(242, 244, 248);
+  border-radius: 26px;
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  display: inline-flex;
+}
+.ezaeWY {
+  position: relative;
+  width: 296px;
+  display: block;
+}
+.djcfpw {
+  border-radius: 8px;
+  margin-left: auto;
+  padding-right: 32px;
+  background-image: url(https://assets.spookyswap.finance/icons/search.svg);
+  background-position: right 6px center;
+  background-repeat: no-repeat;
+}
+
+.eLfWaF {
+  width: 100%;
+}
+.ntgCL {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding: 16px 16px 4px;
+  background: unset;
+}
+@media screen and (min-width: 968px) {
+  .fLsqAy {
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 72px;
+  }
+}
+
+.ceGFgY {
+  color: rgb(115, 204, 231);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 32px;
+}
+.ntgCL > * {
+  font-size: 18px;
+}
+.lpbVfe {
+  color: rgb(115, 204, 231);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 16px !important;
+}
+
+.cXDUDS {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Red Hat Display", san-serif;
+  font-size: 14px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  user-select: none;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: transparent;
+  color: rgb(242, 244, 248);
+  font-weight: bold;
+  box-shadow: none;
+}
+.ljsgop {
+  color: rgb(49, 65, 94);
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.cOouOO {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0px;
+  border-bottom: 1px solid rgb(189, 194, 196);
+  border-top: 1px solid rgb(189, 194, 196);
+  border-right-color: rgb(189, 194, 196);
+  border-left-color: rgb(189, 194, 196);
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+.gngcOu {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+.iPuSMf {
+  display: flex;
+  cursor: pointer;
+  transition: all 0.15s ease 0s;
+  border-bottom: 1px solid rgb(188, 200, 220);
+  background-color: transparent;
+  width: 100%;
+}
+.eNKCFX {
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-color: rgb(140, 140, 227);
+  border-radius: 8px;
+  box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px,
+    rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: rgb(49, 65, 94);
+  overflow: hidden;
+  position: relative;
+}
+.ezaeWY {
+  position: relative;
+  width: 296px;
+  display: block;
+}
+.cINCZL {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0px;
+  border-bottom: 0px solid rgb(189, 194, 196);
+  border-top: 0px solid rgb(189, 194, 196);
+  border-right-color: rgb(189, 194, 196);
+  border-left-color: rgb(189, 194, 196);
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.iUhOCl {
+  background-color: rgb(228, 233, 241);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: rgb(49 65 94 / 8%) 0px 1px 2px inset,
+    rgb(49 65 94 / 4%) 0px 4px 8px inset;
+  color: rgb(49, 65, 94);
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  outline: 0px;
+  padding: 8px;
+  text-align: unset;
+  width: 100%;
+  transition: all 0.15s ease 0s;
+  appearance: textfield;
+}
+.djcfpw {
+  border-radius: 8px;
+  margin-right: 30px;
+  padding-right: 32px;
+  background-image: url(https://assets.spookyswap.finance/icons/search.svg) !important;
+  background-position: right 6px center;
+  background-repeat: no-repeat;
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.hJOPeY {
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.gapchu {
+  width: 24px;
+  height: 24px;
+}
+.hVkhoA {
+  flex: 1 0 50px;
+  align-items: flex-end;
+}
+.hJOPeY {
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.irYgjE {
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: fit-content;
+  max-height: 40px;
+}
+.kQFTnS {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.zPuL {
+  display: inline-block;
+}
+.dxlLEx {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0.2rem;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: default;
+  color: rgb(140, 140, 227);
+  transition: all 0.2s ease 0s;
+}
+.hUfiuj {
+  color: rgb(49, 65, 94);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.lkCaIf {
+}
+.irYgjE .sc-gtsrHT {
+  line-height: 1;
+}
+
+.ffLIzW {
+  display: flex;
+}
+.hJOPeY {
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.OYEGd {
+  flex: 2 0 120px;
+}
+.hJOPeY {
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.ffLIzW {
+  display: flex;
+}
+.irYgjE {
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: fit-content;
+  max-height: 40px;
+}
+.ikAGCT {
+}
+.eumzYp {
+  flex: 4.5 1 0%;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.irYgjE .sc-gtsrHT {
+  line-height: 1;
+}
+.dZsUVP {
+  color: rgb(156, 204, 101);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.jQRtEM {
+  color: rgb(189, 194, 196);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.CsjoC {
+  transition: max-height 0.5s ease-out 0s;
+  overflow: hidden;
+  max-height: 270px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.ijVoWa {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bjUeHV {
+  color: rgb(77, 103, 147);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  line-height: 1.5;
+}
+.YVAOO {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.cvJbXl {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  line-height: 1.5;
+}
+.fJjOrB {
+  border-bottom: 1px solid rgb(74, 76, 112);
+  width: 66%;
+  margin-bottom: 8px;
+}
+.hBreee {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 1em 1em 1.25em;
+}
+
+.eTIood {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.bzMfez {
+  color: rgb(77, 103, 147);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  line-height: 1.5;
+  font-weight: bold;
+}
+.fRbYzb {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+  border-bottom: 1px solid rgb(74, 76, 112);
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+.OLfyU {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.aJhwz {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.fIeQlt {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px solid transparent;
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Red Hat Display", san-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  user-select: none;
+  box-sizing: border-box;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: rgb(242, 244, 248);
+  color: rgb(49, 65, 94);
+}
+.fIeQlt:disabled,
+.fIeQlt.spooky-button--disabled {
+  color: rgb(49, 65, 94);
+  background: rgb(242, 244, 248);
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+.eNrczi {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+  border-bottom: 0px solid rgb(74, 76, 112);
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.gFBBQa {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 16px;
+  height: 120px;
+}
+@media screen and (min-width: 852px) {
+  .gFBBQa {
+    padding-top: 0px;
+    height: unset;
+    flex-direction: column;
+  }
+
+  .aJhwz {
+    width: 66%;
+  }
+  .eTIood {
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  .hBreee {
+    padding: 16px 48px;
+  }
+  .OYEGd {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .eLfWaF {
+    padding: 12px 32px 0px !important;
+  }
+  .hVkhoA {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: unset;
+    align-items: unset;
+    flex: 3 0 40px;
+  }
+  .ntgCL > * {
+    font-size: 21px;
+  }
+
+  .gWZmOG {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .eLfWaF {
+    padding: 12px 32px 0px;
+  }
+  .ntgCL {
+    background: linear-gradient(
+      90deg,
+      rgba(115, 204, 231, 0.2) 0%,
+      rgba(115, 204, 231, 0) 100%
+    );
+    padding: 4px;
+  }
+
+  .isZmGq {
+    background: linear-gradient(
+      90deg,
+      rgba(115, 204, 231, 0.2) 0%,
+      rgba(115, 204, 231, 0) 100%
+    );
+    padding: 4px;
+  }
+
+  .hKwWev {
+    padding: 24px 52px;
+  }
+  .laTVJP {
+    padding-top: 32px;
+  }
+  .bmBtIq {
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .hKLhFR {
+    padding: 0px 24px 24px;
+    border: 2px solid rgb(150, 217, 237);
+    border-radius: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .kCoske {
+    display: none;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .laTVJP {
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hide {
+    display: none;
+  }
+  .loYKTl a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 9px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lfKbd a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 9px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .dikysQ {
+    color: rgb(49, 65, 94);
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    white-space: nowrap;
+    font-weight: unset !important;
+  }
+  .bfGAkp a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 9px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sc {
+    display: none;
+  }
+}
+
+.bpNcEe {
+  flex: 5 1 0%;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 0px 0px 6px;
+}
+.accordion-button {
+  background: rgb(242, 244, 248) !important;
+  background-blend-mode: overlay, normal !important;
+  backdrop-filter: blur(40px) !important;
+}
+.bo {
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  background: rgb(242, 244, 248);
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+}
+.gtzpYD {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .djlnA-D {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .eumzYp {
+    flex: 1 0 60px;
+  }
+  .dUAiby {
+    margin-left: unset;
+  }
+  .bpNcEe {
+    flex: 1 0 140px;
+  }
+}
+/********** FAQ ************/
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+footer {
+  background: rgb(157 161 171);
+}
+.navcol {
+  color: white !important;
+}
+.erAkNO {
+  display: flex;
+  flex-direction: column;
+}
+.gYUiln {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin: 0px 0px 12px;
+  border-top: 1px solid rgb(242, 244, 248);
+}
+.illmTA {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.iONckA {
+  display: flex;
+  flex-direction: row;
+}
+.bqajWD {
+  color: rgb(140, 140, 227);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.jizDjF {
+  fill: rgb(242, 244, 248);
+  flex-shrink: 0;
+}
+.fyvbok {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin: 12px 0px;
+  border-top: 1px solid rgb(242, 244, 248);
+}
+
+.jveNQk {
+  color: rgb(242, 244, 248);
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+}
+.bQhvfV {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+  transition: all 0.15s ease 0s;
+}
+
+.iduHXF {
+  transition: all 0.15s ease 0s;
+}
+.padcon {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+.padrow {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+.KDNlR {
+  display: flex;
+  height: 100%;
+  color: rgb(49, 65, 94);
+  cursor: pointer;
+}
+.bBPtWa {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-left: 11px;
+  margin-right: 16px;
+}
+.iZHXRF {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 244, 248);
+  position: absolute;
+  top: 48px;
+  right: 0px;
+  color: rgb(49, 65, 94);
+  width: 200px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.jLeSfx {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.hRqiCF {
+  fill: currentcolor;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+.BllHR {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1.75px px solid rgb(49, 65, 94);
+  border-radius: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Red Hat Display", san-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: all 0.15s ease 0s;
+  box-shadow: rgb(49 65 94 / 8%) 0px 10px 17px, rgb(49 65 94 / 4%) 0px 5px 26px;
+  user-select: none;
+  box-sizing: border-box;
+  height: 28px;
+  padding: 0px 16px;
+  background-color: rgb(242, 244, 248);
+  color: rgb(49, 65, 94);
+  width: 184px;
+}
+.hhDFme {
+  display: flex;
+  margin: 8px 0px;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.iynPiF {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: calc(100% - 32px);
+  margin: 0px 0px 8px;
+  border-top: 1px solid rgb(188, 200, 220);
+}
+.bNOoqU {
+  transition: all 0.15s ease 0s;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  height: 36px;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.dikysQ {
+  color: rgb(49, 65, 94);
+  font-weight: bold;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+.iZHXRF > div > a {
+  padding: 0px 16px;
+}
+.bNOoqU a {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 9px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cuIjtD {
+  color: rgb(49, 65, 94);
+}
+.ernndx {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.iynPiF {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: calc(100% - 32px);
+  margin: 0px 0px 8px;
+  border-top: 1px solid rgb(188, 200, 220);
+}
+.jREztg {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.cIjgB {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.15s ease 0s;
+  width: 100%;
+}
+.fHhMPE {
+  fill: none;
+  flex-shrink: 0;
+}
+.kwhvgy {
+  color: rgb(49, 65, 94);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  margin-left: 9px;
+  line-height: 24px;
+}
+.ga-DOlt {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: calc(100% - 32px);
+  margin: 8px 0px;
+  border-top: 1px solid rgb(188, 200, 220);
+}
+.iqwSIP {
+  display: flex;
+  height: 100%;
+  width: calc(100% - 32px);
+  padding: 0px 8px;
+  color: rgb(49, 65, 94);
+  cursor: pointer;
+}
+.eiDQZW {
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+.ehpjYO {
+  color: rgb(49, 65, 94);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 8px;
+  font-size: 14px;
+}
+.jzuNpt {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: calc(100% - 32px);
+  margin: 8px 0px 0px;
+  border-top: 1px solid rgb(188, 200, 220);
+}
+.ernndx {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.fiDOnB {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: calc(100% - 32px);
+  height: 40px;
+}
+.iduHXF {
+  transition: all 0.15s ease 0s;
+}
+
+.bQhvfV {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+  transition: all 0.15s ease 0s;
+}
+
+.bqajWD {
+  color: rgb(140, 140, 227);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.jQYbRa {
+  fill: rgb(49, 65, 94);
+  flex-shrink: 0;
+}
+.fiDOnB {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: calc(100% - 32px);
+  height: 40px;
+}
+.euIHNt {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  width: calc(100% - 32px);
+  margin: 0px;
+  border-top: 1px solid rgb(188, 200, 220);
+}
+.sc-TtZnY {
+  color: rgb(49, 65, 94) !important;
+  font-weight: bold !important;
+  -webkit-box-flex: 1 !important;
+  flex-grow: 1 !important;
+  white-space: nowrap !important;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.sc-uxdHp {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: calc(100% - 32px);
+  height: 40px;
+}
+.sc-biJonm {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.iZHZuO {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 244, 248) !important;
+  position: absolute;
+  top: 48px;
+  right: 0px;
+  color: rgb(49, 65, 94);
+  width: 144px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+hr {
+  margin: 0px !important;
 }
