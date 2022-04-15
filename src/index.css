@@ -1348,6 +1348,10 @@ a {
   padding: 16px 16px 4px;
   background: unset;
 }
+.padcon {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
 @media screen and (min-width: 968px) {
   .fLsqAy {
     flex-direction: row;
@@ -1853,7 +1857,44 @@ a {
     align-items: flex-start;
   }
 }
+.mob {
+  display: none !important;
+}
 @media screen and (max-width: 800px) {
+  .mob {
+    display: block !important;
+    width: 100% !important;
+    font-size: 12px !important;
+  }
+  .BllHR {
+    padding: 0px !important;
+  }
+  .coSCIs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 8px;
+    background: rgba(102, 101, 221, 0.2);
+    border-radius: 8px;
+    margin: 60px 0px 12px;
+  }
+  .accordion-button {
+    padding: unset !important;
+  }
+  .padcon {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .gkbSQf {
+    color: rgb(49, 65, 94);
+    font-family: "RedHatDisplay";
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+  }
   .hide {
     display: none;
   }
@@ -2022,10 +2063,7 @@ footer {
 .iduHXF {
   transition: all 0.15s ease 0s;
 }
-.padcon {
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-}
+
 .padrow {
   padding-left: 60px !important;
   padding-right: 60px !important;

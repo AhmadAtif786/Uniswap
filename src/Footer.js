@@ -6,7 +6,7 @@ const Footer = () => {
       <footer class="w-100 py-4 flex-shrink-0">
         <div class="container py-4 padcon">
           <div class="row gy-4 gx-5 ml-5 mr-5">
-            <div class="col-lg-4 col-md-6 padrow">
+            <div class="col-lg-4 col-md-6 col-6 padrow">
               <div class="sc-fXgAZx erAkNO">
                 <div class="sc-hkeOVe gYUiln"></div>
                 <div class="sc-EZqKI sc-eEVmNe iONckA illmTA">
@@ -127,7 +127,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-2 col-md-6 col-6">
               <h5 class="text-white mb-3">Community</h5>
               <ul class="list-unstyled navcol">
                 <li>
@@ -152,7 +152,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-2 col-md-6 col-6">
               <h5 class="text-white mb-3">Tools</h5>
               <ul class="list-unstyled navcol">
                 <li>
@@ -197,7 +197,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-2 col-md-6 col-6">
               <h5 class="text-white mb-3">Info</h5>
               <ul class="list-unstyled navcol">
                 <li>
@@ -237,7 +237,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-2 col-md-6 col-6">
               <h5 class="text-white mb-3">Participate</h5>
               <ul class="list-unstyled navcol">
                 <li>
