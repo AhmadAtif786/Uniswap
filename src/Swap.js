@@ -461,10 +461,535 @@ const Swap = () => {
                           <div class="sc-ciOKUB iDa-dts">
                             <div class="sc-kTCsyW fkRznj">
                               <div class="sc-dvUynV sc-ellfGf sc-kizEQm eSBqst fbUNEw irzWzB">
+                                <div
+                                  class="modal fade"
+                                  id="exampleModal"
+                                  tabindex="-1"
+                                  role="dialog"
+                                  aria-labelledby="exampleModalLabel"
+                                  aria-hidden="true"
+                                >
+                                  <div class="modal-dialog" role="document">
+                                    <div
+                                      class="modal-content sc-eJocfa hKqhIe "
+                                      style={{
+                                        width: " 443.719px ",
+                                        height: "614px ",
+                                        fontFamily: "RedHatDisplay, sans-serif",
+                                        display: "block",
+                                      }}
+                                    >
+                                      <div class="sc-oeezt jJYKvQ ">
+                                        <div class="sc-lbVvki ghCdOs"></div>
+                                        <div class="sc-hhIiOg iwisNA">
+                                          <h2
+                                            font-size="21px"
+                                            color="text"
+                                            style={{
+                                              fontFamily:
+                                                "RedHatDisplay, sans-serif",
+                                            }}
+                                            class="sc-gtsrHT sc-iJCRrE fcdEM bpbXLo"
+                                          >
+                                            Settings
+                                          </h2>
+                                        </div>
+                                        <button
+                                          type="button"
+                                          class="close sc-dlnjwi ldYokK sc-hKFxyN sc-eirqVv HOGsP dSzotL"
+                                          data-dismiss="modal"
+                                          aria-label="Close"
+                                        >
+                                          <svg
+                                            viewBox="0 0 24 24"
+                                            color="text"
+                                            width="24px"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="sc-bdnxRM jQYbRa"
+                                          >
+                                            <path d="M18.3 5.70997C17.91 5.31997 17.28 5.31997 16.89 5.70997L12 10.59L7.10997 5.69997C6.71997 5.30997 6.08997 5.30997 5.69997 5.69997C5.30997 6.08997 5.30997 6.71997 5.69997 7.10997L10.59 12L5.69997 16.89C5.30997 17.28 5.30997 17.91 5.69997 18.3C6.08997 18.69 6.71997 18.69 7.10997 18.3L12 13.41L16.89 18.3C17.28 18.69 17.91 18.69 18.3 18.3C18.69 17.91 18.69 17.28 18.3 16.89L13.41 12L18.3 7.10997C18.68 6.72997 18.68 6.08997 18.3 5.70997Z"></path>
+                                          </svg>
+                                        </button>
+                                      </div>
+                                      <div class="sc-eCApnc sc-jSFjdj jaBVpz cupDjO">
+                                        <div class="sc-eCApnc sc-jSFjdj sc-eiQWpL fAHfVX ffLIzW bIdCVa">
+                                          <div class="sc-eCApnc sc-jSFjdj cWORMy cupDjO">
+                                            <div
+                                              font-size="12px"
+                                              color="textSubtle"
+                                              class="sc-gtsrHT bGGNZA"
+                                            >
+                                              GENERAL
+                                            </div>
+                                            <div
+                                              width="100%"
+                                              class="sc-eCApnc sc-jSFjdj gJMWyS kaSAqm"
+                                            >
+                                              <div
+                                                color="textSubtle"
+                                                class="sc-gtsrHT bjUeHV"
+                                              >
+                                                Theme
+                                              </div>
+                                              <button
+                                                class="sc-dlnjwi ldYokK"
+                                                scale="sm"
+                                              >
+                                                <div class="sc-eCApnc sc-jSFjdj fAHfVX YVAOO">
+                                                  <svg
+                                                    viewBox="0 0 24 24"
+                                                    color="text"
+                                                    width="24px"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="sc-bdnxRM jQYbRa"
+                                                  >
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M12 0C12.5523 0 13 0.447715 13 1V3C13 3.55228 12.5523 4 12 4C11.4477 4 11 3.55228 11 3V1C11 0.447715 11.4477 0 12 0Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M12 20C12.5523 20 13 20.4477 13 21V23C13 23.5523 12.5523 24 12 24C11.4477 24 11 23.5523 11 23V21C11 20.4477 11.4477 20 12 20Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M3.51289 3.51289C3.90342 3.12237 4.53658 3.12237 4.92711 3.51289L6.34711 4.93289C6.73763 5.32342 6.73763 5.95658 6.34711 6.34711C5.95658 6.73763 5.32342 6.73763 4.93289 6.34711L3.51289 4.92711C3.12237 4.53658 3.12237 3.90342 3.51289 3.51289Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M17.6529 17.6529C18.0434 17.2624 18.6766 17.2624 19.0671 17.6529L20.4871 19.0729C20.8776 19.4634 20.8776 20.0966 20.4871 20.4871C20.0966 20.8776 19.4634 20.8776 19.0729 20.4871L17.6529 19.0671C17.2624 18.6766 17.2624 18.0434 17.6529 17.6529Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M0 12C0 11.4477 0.447715 11 1 11H3C3.55228 11 4 11.4477 4 12C4 12.5523 3.55228 13 3 13H1C0.447715 13 0 12.5523 0 12Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M20 12C20 11.4477 20.4477 11 21 11H23C23.5523 11 24 11.4477 24 12C24 12.5523 23.5523 13 23 13H21C20.4477 13 20 12.5523 20 12Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M6.34711 17.6529C6.73763 18.0434 6.73763 18.6766 6.34711 19.0671L4.92711 20.4871C4.53658 20.8776 3.90342 20.8776 3.51289 20.4871C3.12237 20.0966 3.12237 19.4634 3.51289 19.0729L4.93289 17.6529C5.32342 17.2624 5.95658 17.2624 6.34711 17.6529Z"
+                                                    ></path>
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M20.4871 3.51289C20.8776 3.90342 20.8776 4.53658 20.4871 4.92711L19.0671 6.34711C18.6766 6.73763 18.0434 6.73763 17.6529 6.34711C17.2624 5.95658 17.2624 5.32342 17.6529 4.93289L19.0729 3.51289C19.4634 3.12237 20.0966 3.12237 20.4871 3.51289Z"
+                                                    ></path>
+                                                  </svg>
+                                                  <div
+                                                    color="textDisabled"
+                                                    class="sc-gtsrHT eRcidN"
+                                                  >
+                                                    /
+                                                  </div>
+                                                  <svg
+                                                    viewBox="0 0 24 24"
+                                                    color="textDisabled"
+                                                    width="24px"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="sc-bdnxRM hzXjMZ"
+                                                  >
+                                                    <path
+                                                      fill-rule="evenodd"
+                                                      clip-rule="evenodd"
+                                                      d="M13 9C13 7.02543 13.8205 5.18477 15.2398 3.86765L16.7174 2.49647L14.7317 2.14956C14.1634 2.05029 13.5847 2 13 2C7.47715 2 3 6.47715 3 12C3 17.5228 7.47715 22 13 22C16.3854 22 19.4843 20.3038 21.3266 17.5396L22.4432 15.8643L20.4336 15.9868C20.2898 15.9956 20.1452 16 20 16C16.134 16 13 12.866 13 9ZM13 20C8.58172 20 5 16.4183 5 12C5 7.74791 8.31735 4.27062 12.5051 4.01506C11.5367 5.46848 11 7.19184 11 9C11 13.439 14.2137 17.1274 18.4414 17.8655C16.9878 19.2153 15.061 20 13 20Z"
+                                                    ></path>
+                                                  </svg>
+                                                </div>
+                                              </button>
+                                            </div>
+                                            <div class="sc-eCApnc sc-jSFjdj KdUrR ijVoWa">
+                                              <div class="sc-eCApnc sc-jSFjdj fAHfVX YVAOO">
+                                                <div
+                                                  color="textSubtle"
+                                                  class="sc-gtsrHT bjUeHV"
+                                                >
+                                                  Enable Art
+                                                </div>
+                                                <span
+                                                  style={{ marginLeft: "4px" }}
+                                                >
+                                                  <div class="sc-dksuTV zPuL">
+                                                    <div class="sc-bShgHC dxlLEx">
+                                                      <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="16"
+                                                        height="16"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                      >
+                                                        <circle
+                                                          cx="12"
+                                                          cy="12"
+                                                          r="10"
+                                                        ></circle>
+                                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                        <line
+                                                          x1="12"
+                                                          y1="17"
+                                                          x2="12.01"
+                                                          y2="17"
+                                                        ></line>
+                                                      </svg>
+                                                    </div>
+                                                  </div>
+                                                </span>
+                                              </div>
+                                              <label for="toggle">
+                                                <div class="sc-iNiQyp jdiWPe">
+                                                  <div
+                                                    scale="sm"
+                                                    class="sc-laZMeE jYQoRn"
+                                                  ></div>
+                                                  <input
+                                                    scale="sm"
+                                                    type="checkbox"
+                                                    id="toggle"
+                                                    class="sc-gSYDnn dxcNBu"
+                                                    checked=""
+                                                  />
+                                                  <div
+                                                    scale="sm"
+                                                    class="sc-jgPyTC cSlOVZ"
+                                                  >
+                                                    <div class="sc-jffHpj ljBBJi"></div>
+                                                  </div>
+                                                </div>
+                                              </label>
+                                            </div>
+                                            <div class="sc-eCApnc sc-jSFjdj fAHfVX cupDjO">
+                                              <div class="sc-eCApnc sc-jSFjdj HlVtV YVAOO">
+                                                <div
+                                                  color="textSubtle"
+                                                  class="sc-gtsrHT bjUeHV"
+                                                >
+                                                  Default Transaction Speed
+                                                  (GWEI)
+                                                </div>
+                                                <span
+                                                  style={{ marginLeft: " 4px" }}
+                                                >
+                                                  <div class="sc-dksuTV zPuL">
+                                                    <div class="sc-bShgHC dxlLEx">
+                                                      <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="16"
+                                                        height="16"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                      >
+                                                        <circle
+                                                          cx="12"
+                                                          cy="12"
+                                                          r="10"
+                                                        ></circle>
+                                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                        <line
+                                                          x1="12"
+                                                          y1="17"
+                                                          x2="12.01"
+                                                          y2="17"
+                                                        ></line>
+                                                      </svg>
+                                                    </div>
+                                                  </div>
+                                                </span>
+                                              </div>
+                                              <div class="sc-eCApnc sc-jSFjdj fAHfVX hgnmwN">
+                                                <button
+                                                  class="sc-dlnjwi fOwOPW"
+                                                  scale="sm"
+                                                >
+                                                  Default
+                                                </button>
+                                                <button
+                                                  class="sc-dlnjwi fOwOPW"
+                                                  scale="sm"
+                                                >
+                                                  Fast 301
+                                                </button>
+                                                <button
+                                                  class="sc-dlnjwi kBzhoU"
+                                                  scale="sm"
+                                                >
+                                                  Instant 301
+                                                </button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="sc-eCApnc sc-jSFjdj lnBJVs bXtaxr">
+                                            <div
+                                              font-size="12px"
+                                              color="textSubtle"
+                                              class="sc-gtsrHT bGGNZA"
+                                            >
+                                              TRADING
+                                            </div>
+                                            <div class="sc-iXquSf bwRbQ">
+                                              <div class="sc-exqIPC leuDbu">
+                                                <div
+                                                  color="textSubtle"
+                                                  class="sc-gtsrHT bjUeHV"
+                                                >
+                                                  Slippage Tolerance
+                                                </div>
+                                                <span
+                                                  style={{ marginLeft: " 4px" }}
+                                                >
+                                                  <div class="sc-dksuTV zPuL">
+                                                    <div class="sc-bShgHC dxlLEx">
+                                                      <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="16"
+                                                        height="16"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                      >
+                                                        <circle
+                                                          cx="12"
+                                                          cy="12"
+                                                          r="10"
+                                                        ></circle>
+                                                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                        <line
+                                                          x1="12"
+                                                          y1="17"
+                                                          x2="12.01"
+                                                          y2="17"
+                                                        ></line>
+                                                      </svg>
+                                                    </div>
+                                                  </div>
+                                                </span>
+                                              </div>
+                                              <div class="sc-hKiEVl iEOpyR">
+                                                <div class="sc-eCApnc sc-jSFjdj cNuNXk ffLIzW">
+                                                  <div class="sc-hYIrvc fUygGX">
+                                                    <button
+                                                      class="sc-dlnjwi kpeGno"
+                                                      scale="sm"
+                                                      style={{
+                                                        padding: "0px",
+                                                        marginRight: "8px",
+                                                      }}
+                                                    >
+                                                      0.1%
+                                                    </button>
+                                                  </div>
+                                                  <div class="sc-hYIrvc fUygGX">
+                                                    <button
+                                                      class="sc-dlnjwi kpeGno"
+                                                      scale="sm"
+                                                      style={{
+                                                        padding: "0px",
+                                                        marginRight: "8px",
+                                                      }}
+                                                    >
+                                                      0.5%
+                                                    </button>
+                                                  </div>
+                                                  <div class="sc-hYIrvc fUygGX">
+                                                    <button
+                                                      class="sc-dlnjwi kpeGno"
+                                                      scale="sm"
+                                                      style={{
+                                                        padding: "0px",
+                                                        marginRight: "8px",
+                                                      }}
+                                                    >
+                                                      1%
+                                                    </button>
+                                                  </div>
+                                                </div>
+                                                <div class="sc-eCApnc sc-jSFjdj fAHfVX ewgxrs">
+                                                  <div
+                                                    style={{
+                                                      width: "40%",
+                                                      marginRight: "4px",
+                                                    }}
+                                                  >
+                                                    <input
+                                                      type="number"
+                                                      scale="md"
+                                                      step="0.1"
+                                                      min="0.1"
+                                                      placeholder="0"
+                                                      class="sc-kEqXSa cHKIhJ"
+                                                      value="0.8"
+                                                    />
+                                                  </div>
+                                                  <div
+                                                    font-size="16px"
+                                                    color="textSubtle"
+                                                    class="sc-gtsrHT kwmAJC"
+                                                  >
+                                                    %
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="sc-eCApnc sc-jSFjdj KdUrR ijVoWa">
+                                            <div class="sc-eCApnc sc-jSFjdj fAHfVX YVAOO">
+                                              <div
+                                                color="textSubtle"
+                                                class="sc-gtsrHT bjUeHV"
+                                              >
+                                                Expert Mode
+                                              </div>
+                                              <span
+                                                style={{ marginLeft: " 4px" }}
+                                              >
+                                                <div class="sc-dksuTV zPuL">
+                                                  <div class="sc-bShgHC dxlLEx">
+                                                    <svg
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width="16"
+                                                      height="16"
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      stroke-width="2"
+                                                      stroke-linecap="round"
+                                                      stroke-linejoin="round"
+                                                    >
+                                                      <circle
+                                                        cx="12"
+                                                        cy="12"
+                                                        r="10"
+                                                      ></circle>
+                                                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                      <line
+                                                        x1="12"
+                                                        y1="17"
+                                                        x2="12.01"
+                                                        y2="17"
+                                                      ></line>
+                                                    </svg>
+                                                  </div>
+                                                </div>
+                                              </span>
+                                            </div>
+                                            <label for="toggle">
+                                              <div class="sc-iNiQyp jdiWPe">
+                                                <div
+                                                  scale="sm"
+                                                  class="sc-laZMeE hqUnEb"
+                                                ></div>
+                                                <input
+                                                  scale="sm"
+                                                  id="toggle"
+                                                  type="checkbox"
+                                                  class="sc-gSYDnn dxcNBu"
+                                                />
+                                                <div
+                                                  scale="sm"
+                                                  class="sc-jgPyTC cSlOVZ"
+                                                >
+                                                  <div class="sc-jffHpj hGkzwt"></div>
+                                                </div>
+                                              </div>
+                                            </label>
+                                          </div>
+                                          <div class="sc-eCApnc sc-jSFjdj KdUrR ijVoWa">
+                                            <div class="sc-eCApnc sc-jSFjdj fAHfVX YVAOO">
+                                              <div
+                                                color="textSubtle"
+                                                class="sc-gtsrHT bjUeHV"
+                                              >
+                                                Enable Multihops
+                                              </div>
+                                              <span
+                                                style={{ marginLeft: " 4px" }}
+                                              >
+                                                <div class="sc-dksuTV zPuL">
+                                                  <div class="sc-bShgHC dxlLEx">
+                                                    <svg
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width="16"
+                                                      height="16"
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      stroke-width="2"
+                                                      stroke-linecap="round"
+                                                      stroke-linejoin="round"
+                                                    >
+                                                      <circle
+                                                        cx="12"
+                                                        cy="12"
+                                                        r="10"
+                                                      ></circle>
+                                                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                      <line
+                                                        x1="12"
+                                                        y1="17"
+                                                        x2="12.01"
+                                                        y2="17"
+                                                      ></line>
+                                                    </svg>
+                                                  </div>
+                                                </div>
+                                              </span>
+                                            </div>
+                                            <label for="toggle">
+                                              <div class="sc-iNiQyp jdiWPe">
+                                                <div
+                                                  scale="sm"
+                                                  class="sc-laZMeE jYQoRn"
+                                                ></div>
+                                                <input
+                                                  scale="sm"
+                                                  id="toggle"
+                                                  type="checkbox"
+                                                  class="sc-gSYDnn dxcNBu"
+                                                  checked=""
+                                                />
+                                                <div
+                                                  scale="sm"
+                                                  class="sc-jgPyTC cSlOVZ"
+                                                >
+                                                  <div class="sc-jffHpj ljBBJi"></div>
+                                                </div>
+                                              </div>
+                                            </label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                                 <button
                                   class="sc-dlnjwi jIhvLR"
                                   height="14px"
                                   scale="sm"
+                                  data-toggle="modal"
+                                  data-target="#exampleModal"
                                 >
                                   Slippage
                                   <svg
@@ -493,36 +1018,7 @@ const Swap = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="sc-jdXKxY hLOQZw">
-                          <div class="sc-bnFVBq hGJmFk">
-                            <svg
-                              viewBox="0 0 24 24"
-                              color="primary"
-                              width="20px"
-                              xmlns="http://www.w3.org/2000/svg"
-                              class="sc-bdnxRM jfzODj"
-                            >
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M13 12v2h-2v-2H9v-2h2V8h2v2h2v2h-2z"
-                              ></path>
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M5 10a7 7 0 0114 0v8.575c.23.081.454.192.664.332l1.89 1.26-1.109 1.665-1.89-1.26a1 1 0 00-1.11 0l-.78.52a3 3 0 01-3.33 0l-.78-.52a1 1 0 00-1.11 0l-.78.52a3 3 0 01-3.33 0l-.78-.52a1 1 0 00-1.11 0l-1.89 1.26-1.11-1.664 1.89-1.26A3 3 0 015 18.574V10zm2 8.575a3 3 0 01.664.332l.781.521a1 1 0 001.11 0l.78-.52a3 3 0 013.33 0l.78.52a1 1 0 001.11 0l.78-.52c.21-.14.434-.252.665-.333V10a5 5 0 00-10 0v8.575z"
-                              ></path>
-                            </svg>
-                            <button
-                              class="sc-dlnjwi fTuSeA"
-                              height="14px"
-                              scale="sm"
-                              style={{ fontSize: "14px" }}
-                            >
-                              Connect your wallet to Fantom Opera to start!
-                            </button>
-                          </div>
-                        </div>
+                        <div class="sc-jdXKxY hLOQZw"></div>
                       </div>
                     </div>
                   ) : (
