@@ -2331,3 +2331,8 @@ a {
 hr {
   margin: 0px !important;
 }
+.dropdown-menu[data-bs-popper] {
+  top: 132% !important;
+  left: -134px !important;
+  margin-top: 0.125rem;
+}
